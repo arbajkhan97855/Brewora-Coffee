@@ -1,0 +1,6 @@
+{
+  "name": "Brewora Coffee — Artisan Roasters & Café",
+  "description": "Premium handcrafted coffee shop website with full product catalogue, interactive café menu, inquiries, gallery lightbox, and complete frontend admin CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
