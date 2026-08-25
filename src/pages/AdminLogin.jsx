@@ -187,39 +187,7 @@ export default function AdminLogin() {
           </button>
         </form>
 
-        {/* Demo Credentials Helper */}
-        <div
-          style={{
-            marginTop: "1.8rem",
-            padding: "1rem",
-            background: "var(--bg-input)",
-            borderRadius: "var(--radius-sm)",
-            border: "1px dashed var(--border-strong)",
-            fontSize: "0.8rem",
-            color: "var(--text-muted)"
-          }}
-        >
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.4rem" }}>
-            <span style={{ fontWeight: 700, color: "var(--accent)" }}>Default Info.js Credentials:</span>
-            <button
-              type="button"
-              onClick={handleFillDemoCredentials}
-              style={{
-                color: "var(--accent)",
-                fontWeight: 700,
-                fontSize: "0.75rem",
-                textDecoration: "underline"
-              }}
-            >
-              Auto-Fill
-            </button>
-          </div>
-          <div>Email: <code style={{ color: "var(--white)" }}>{adminInfo.email}</code></div>
-          <div>Password: <code style={{ color: "var(--white)" }}>{adminInfo.password}</code></div>
-          <div style={{ marginTop: "0.4rem", fontSize: "0.72rem", color: "var(--text-subtle)" }}>
-            * Note: Frontend-only administration backed by browser LocalStorage.
-          </div>
-        </div>
+      
       </div>
     </div>
   );
